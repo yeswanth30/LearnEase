@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <EditText
+        android:id="@+id/questionTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:textSize="25dp"
+        android:hint="Question goes here" />
+
+    <RadioGroup
+        android:id="@+id/optionRadioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/questionTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp">
+
+        <EditText
+            android:id="@+id/option1RadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Option 1" />
+
+        <EditText
+            android:id="@+id/option2RadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Option 2" />
+
+        <EditText
+            android:id="@+id/option3RadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Option 3" />
+
+        <EditText
+            android:id="@+id/option4RadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Option 4" />
+        <EditText
+            android:id="@+id/correctoption"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="correct option" />
+        <EditText
+            android:id="@+id/marks"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Marks" />
+
+<!--        <Spinner-->
+<!--            android:id="@+id/correctOptionSpinner"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content" />-->
+<!--        &lt;!&ndash;        <RadioButton&ndash;&gt;-->
+<!--            android:id="@+id/correctoption"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="correct option" />-->
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/optionRadioGroup"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginTop="24dp"
+        android:layout_marginRight="125dp"
+        android:text="Submit Question" />
+</RelativeLayout>

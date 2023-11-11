@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/myTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="134dp"
+        android:layout_marginBottom="677dp"
+        android:text="Quiz Results"
+        android:textColor="	#AA336A"
+        android:textSize="30dp" />
+
+<!--    <TextView-->
+<!--        android:id="@+id/myTextView1"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginEnd="109dp"-->
+<!--        android:layout_marginBottom="595dp"-->
+<!--        android:text="TOTAL MARKS"-->
+<!--        android:textColor="#00008B"-->
+<!--        android:textSize="30dp" />-->
+
+    <TextView
+        android:id="@+id/myTextView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="103dp"
+        android:layout_marginBottom="558dp"
+        android:hint="TOTAL MARKS"
+        android:textColor="#00008B"
+        android:textSize="30dp" />
+
+</RelativeLayout>
