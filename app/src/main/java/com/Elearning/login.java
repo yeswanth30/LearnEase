@@ -106,7 +106,7 @@ public class login extends AppCompatActivity {
                             myedit.putString("userid", data);
                             myedit.commit();
                             Toast.makeText(login.this, "Successfully login" + data, Toast.LENGTH_LONG).show();
-                            //Log.e("data of login",data);
+                          //  Log.e("data of login",data);
                             if (selectedRole.equals("Student")) {
                                 loggedInStudent = 1;
                                 myedit.putInt("loggedInStudent", loggedInStudent);
